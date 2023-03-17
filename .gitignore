@@ -1,0 +1,6 @@
+/node_modules
+/config/untitledweb.json
+.env
+/routes test
+/.idea
+/tests

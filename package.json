@@ -1,0 +1,27 @@
+{
+  "name": "untitled.js-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Elijah Trillionz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.22.1",
+    "fastify-auth": "^1.1.0",
+    "fastify-cors": "^6.0.2",
+    "firebase-admin": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
